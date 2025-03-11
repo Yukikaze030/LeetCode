@@ -4,9 +4,9 @@ project(LeetCOde VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(LeetCo12de ../top-100-liked/124.cpp)
+add_executable(LeetCo12de ./2264.cpp)
 
-# add_executable(LeetCode ./2181.cpp)
+# add_executable(LeetCode ./207.cpp)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
